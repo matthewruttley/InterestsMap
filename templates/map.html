@@ -37,7 +37,11 @@
             }]
           },
           onRegionTipShow: function(e, el, code){
-            el.html(el.html()+' (URLs visited - '+countryInfo[code]+')');
+            hits = 0
+            if (countryInfo[code]) { //better than saying "undefined"
+              hits = countryInfo[code]
+            }
+            el.html(el.html()+' (URLs visited - '+hits+')');
           }
         });
       });
