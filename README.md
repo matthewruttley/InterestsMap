@@ -1,5 +1,4 @@
-nterestsMap
-A map of countries you're interested in, based on your Firefox history
+InterestsMap: A map of countries you're interested in, based on your Firefox history
 # Usage
 
     $ python map_server.py
