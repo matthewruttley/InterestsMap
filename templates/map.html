@@ -16,10 +16,43 @@
   <script src="http://jvectormap.com/js/jquery-jvectormap-2.0.2.min.js"></script>
   <script src="http://jvectormap.com/js/tabs.js"></script>
   <script src="http://jvectormap.com/js/jquery-jvectormap-world-mill-en.js"></script>
+  <style>
+    #infotable td, th {
+      border: 1px solid grey;
+      padding: 2px;
+      text-align: center;
+    }
+    #infotable th {
+      font-weight: bold;
+      background-color: lightgreen;
+    }
+    #world-map-history, #infotable {
+      float:left
+    }
+    #infotable {
+      margin-left: 20px;
+      margin-top: 20px;
+      background-color: lightblue;
+    }
+  </style>
 </head>
 <body>
   <figure>
-    <div id="world-map-history" style="width: 1200px; height: 700px"></div>
+    <div id='container'>
+      <div id="world-map-history" style="width: 1000px; height: 700px"></div>
+      <div id='infotable'>
+        <table>
+          <tr>
+            <th>Country</th><th>Hits</th>
+          </tr>
+          {% for country in data.countries %}
+            {% if country.1 > 25 %}
+            <tr><td>{{country.0}}</td><td>{{country.1}}</td></tr>
+            {% endif %}
+          {% endfor %}
+        </table>
+      </div>
+    </div>
     <script>
       var countryInfo = {
         {% for country in data.countries %}
