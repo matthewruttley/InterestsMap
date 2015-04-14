@@ -14,7 +14,7 @@
          "abkhazians"
       ],
       "cities":[
-
+		 "sukhumi"
       ],
       "areas":[
 
@@ -227,8 +227,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Armeno"
+      "languages":[
+
       ],
       "country_names":[
          "armenia",
@@ -238,8 +238,8 @@
       "adjectivals":[
          "armenian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "armeno"
       ],
       "country_code":"AM",
       "demonyms":[
@@ -273,20 +273,20 @@
       ]
    },
    {
-      "prefixes":[
-         "Australo"
+      "languages":[
+
       ],
       "country_names":[
          "australia"
       ],
       "nicknames":[
-         "Straya"
+         "straya"
       ],
       "adjectivals":[
          "australian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "australo"
       ],
       "country_code":"AU",
       "demonyms":[
@@ -302,8 +302,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Austro"
+      "languages":[
+
       ],
       "country_names":[
          "austria",
@@ -312,8 +312,8 @@
       "adjectivals":[
          "austrian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "austro"
       ],
       "country_code":"AT",
       "demonyms":[
@@ -468,8 +468,8 @@
       ]
    },
    {
-      "prefixes":[
-         "belgo"
+      "languages":[
+
       ],
       "country_names":[
          "belgium",
@@ -480,15 +480,15 @@
       "adjectivals":[
          "belgian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "belgo"
       ],
       "country_code":"BE",
       "demonyms":[
          "belgians"
       ],
       "cities":[
-
+		 "brussels"
       ],
       "areas":[
 
@@ -509,7 +509,8 @@
          "belizeans"
       ],
       "cities":[
-         "belmopan"
+         "belmopan",
+		 "belize city"
       ],
       "areas":[
 
@@ -532,7 +533,8 @@
          "beninois"
       ],
       "cities":[
-         "porto-novo"
+         "porto-novo",
+		 "cotonou"
       ],
       "areas":[
 
@@ -678,7 +680,8 @@
          "brasilia"
       ],
       "areas":[
-
+		 "amazon rainforest",
+		 "amazon river"
       ]
    },
    {
@@ -724,8 +727,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Bulgaro"
+      "languages":[
+
       ],
       "country_names":[
          "bulgaria",
@@ -736,8 +739,8 @@
       "adjectivals":[
          "bulgarian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "bulgaro"
       ],
       "country_code":"BG",
       "demonyms":[
@@ -993,15 +996,17 @@
          "chileans"
       ],
       "cities":[
-         "santiago"
+         "santiago",
+		 "valparaiso"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Sino"
+      "languages":[
+         "mandarin",
+		 "hakka"
       ],
       "country_names":[
          "china"
@@ -1009,17 +1014,45 @@
       "adjectivals":[
          "chinese"
       ],
-      "languages":[
-         "Mandarin"
+      "prefixes":[
+         "sino"
       ],
       "country_code":"CN",
       "demonyms":[
          "chinese"
       ],
       "cities":[
-         "beijing",
-         "xiamen",
-         "shanghai"
+		 "beijing",
+		 "tianjin",
+		 "shijiazhuang",
+		 "taiyuan",
+		 "hohhot",
+		 "shenyang",
+		 "changchun",
+		 "harbin",
+		 "shanghai",
+		 "nanjing",
+		 "hangzhou",
+		 "hefei",
+		 "fuzhou",
+		 "nanchang",
+		 "jinan",
+		 "zhengzhou",
+		 "wuhan",
+		 "changsha",
+		 "guangzhou",
+		 "nanning",
+		 "haikou",
+		 "chongqing",
+		 "chengdu",
+		 "guiyang",
+		 "kunming",
+		 "lhasa",
+		 "xi'an",
+		 "lanzhou",
+		 "xining",
+		 "yinchuan",
+		 "urumqi"
       ],
       "areas":[
 
@@ -1122,7 +1155,7 @@
          "congolese"
       ],
       "cities":[
-
+		 "kinshasa"
       ],
       "areas":[
 
@@ -1193,8 +1226,8 @@
       ]
    },
    {
-      "prefixes":[
-         "croato"
+      "languages":[
+
       ],
       "country_names":[
          "croatia"
@@ -1202,8 +1235,8 @@
       "adjectivals":[
          "croatian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "croato"
       ],
       "country_code":"HR",
       "demonyms":[
@@ -1238,8 +1271,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Cypro"
+      "languages":[
+
       ],
       "country_names":[
          "cyprus"
@@ -1247,8 +1280,8 @@
       "adjectivals":[
          "cypriot"
       ],
-      "languages":[
-
+      "prefixes":[
+         "cypro"
       ],
       "country_code":"CY",
       "demonyms":[
@@ -1262,8 +1295,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Czecho"
+      "languages":[
+
       ],
       "country_names":[
          "czech republic"
@@ -1271,8 +1304,8 @@
       "adjectivals":[
          "czech"
       ],
-      "languages":[
-
+      "prefixes":[
+         "czecho"
       ],
       "country_code":"CZ",
       "demonyms":[
@@ -1286,8 +1319,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Dano"
+      "languages":[
+
       ],
       "country_names":[
          "denmark"
@@ -1295,8 +1328,8 @@
       "adjectivals":[
          "danish"
       ],
-      "languages":[
-
+      "prefixes":[
+         "dano"
       ],
       "country_code":"DK",
       "demonyms":[
@@ -1418,8 +1451,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Egypto"
+      "languages":[
+
       ],
       "country_names":[
          "egypt"
@@ -1427,8 +1460,8 @@
       "adjectivals":[
          "egyptian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "egypto"
       ],
       "country_code":"EG",
       "demonyms":[
@@ -1461,29 +1494,6 @@
       ],
       "cities":[
          "san salvador"
-      ],
-      "areas":[
-
-      ]
-   },
-   {
-      "prefixes":[
-         "Anglo"
-      ],
-      "country_names":[
-         "england"
-      ],
-      "adjectivals":[
-
-      ],
-      "languages":[
-
-      ],
-      "demonyms":[
-
-      ],
-      "cities":[
-
       ],
       "areas":[
 
@@ -1569,7 +1579,7 @@
          "ethiopians"
       ],
       "cities":[
-
+		 "addis ababa"
       ],
       "areas":[
 
@@ -1638,9 +1648,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Fenno",
-         "Finno"
+      "languages":[
+
       ],
       "country_names":[
          "finland"
@@ -1648,8 +1657,9 @@
       "adjectivals":[
          "finnish"
       ],
-      "languages":[
-
+      "prefixes":[
+         "fenno",
+         "finno"
       ],
       "country_code":"FI",
       "demonyms":[
@@ -1663,8 +1673,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Gallo"
+      "languages":[
+
       ],
       "country_names":[
          "france"
@@ -1673,8 +1683,8 @@
          "french",
          "gallic"
       ],
-      "languages":[
-
+      "prefixes":[
+         "gallo"
       ],
       "country_code":"FR",
       "demonyms":[
@@ -1816,7 +1826,16 @@
          "germans"
       ],
       "cities":[
-
+		 "berlin",
+		 "hamburg",
+		 "munich",
+		 "koln",
+		 "frankfurt",
+		 "stuttgart",
+		 "dusseldorf",
+		 "dortmund",
+		 "dresden",
+		 "leipzig"
       ],
       "areas":[
 
@@ -1864,8 +1883,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Greco"
+      "languages":[
+
       ],
       "country_names":[
          "greece"
@@ -1875,8 +1894,8 @@
          "grecian",
          "hellenic"
       ],
-      "languages":[
-
+      "prefixes":[
+         "greco"
       ],
       "country_code":"GR",
       "demonyms":[
@@ -1885,10 +1904,13 @@
          "hellenes"
       ],
       "cities":[
-
+		 "athens"
       ],
       "areas":[
-
+		 "crete",
+		 "lesbos",
+		 "rhodes",
+		 "corfu"
       ]
    },
    {
@@ -1997,10 +2019,11 @@
          "chapins"
       ],
       "cities":[
-
+		 "guatemala city",
+		 "flores"
       ],
       "areas":[
-
+		 "tikal"
       ]
    },
    {
@@ -2117,7 +2140,7 @@
          "hongkongese"
       ],
       "languages":[
-
+		 "cantonese"
       ],
       "demonyms":[
          "hongkongers",
@@ -2127,12 +2150,12 @@
 
       ],
       "areas":[
-
+		 "kowloon"
       ]
    },
    {
-      "prefixes":[
-         "Hungaro"
+      "languages":[
+
       ],
       "country_names":[
          "hungary"
@@ -2141,8 +2164,8 @@
          "hungarian",
          "magyar"
       ],
-      "languages":[
-
+      "prefixes":[
+         "hungaro"
       ],
       "country_code":"HU",
       "demonyms":[
@@ -2150,7 +2173,7 @@
          "magyars"
       ],
       "cities":[
-
+		 "budapest"
       ],
       "areas":[
 
@@ -2171,15 +2194,15 @@
          "icelanders"
       ],
       "cities":[
-
+		 "reykjavik"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Indo"
+      "languages":[
+
       ],
       "country_names":[
          "india"
@@ -2187,18 +2210,30 @@
       "adjectivals":[
          "indian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "indo"
       ],
       "country_code":"IN",
       "demonyms":[
          "indians"
       ],
       "cities":[
-
+		 "mumbai",
+		 "delhi",
+		 "bangalore",
+		 "hyderabad",
+		 "chennai",
+		 "calcutta",
+		 "jaipur",
+		 "lucknow",
+		 "bhopal"
       ],
       "areas":[
-
+		 "pradesh",
+		 "rajasthan",
+		 "gujarat",
+		 "kerala",
+		 "punjab"
       ]
    },
    {
@@ -2216,10 +2251,10 @@
          "indonesians"
       ],
       "cities":[
-
+		 "jakarta"
       ],
       "areas":[
-
+		 "bali"
       ]
    },
    {
@@ -2239,7 +2274,8 @@
          "persians"
       ],
       "cities":[
-
+		 "tehran",
+		 "isfahan"
       ],
       "areas":[
 
@@ -2260,28 +2296,12 @@
          "iraqis"
       ],
       "cities":[
-
-      ],
-      "areas":[
-
-      ]
-   },
-   {
-      "country_names":[
-         "ireland"
-      ],
-      "adjectivals":[
-         "irish"
-      ],
-      "languages":[
-
-      ],
-      "country_code":"IE",
-      "demonyms":[
-         "irish"
-      ],
-      "cities":[
-
+		 "baghdad",
+		 "basra",
+		 "fallujah",
+		 "mosul",
+		 "najaf",
+		 "tikrit"
       ],
       "areas":[
 
@@ -2322,7 +2342,11 @@
          "israelis"
       ],
       "cities":[
-
+		 "jerusalem",
+		 "tel aviv",
+		 "haifa",
+		 "eilat",
+		 "nazareth"
       ],
       "areas":[
 
@@ -2343,10 +2367,22 @@
          "italians"
       ],
       "cities":[
-
+		 "rome",
+		 "milan",
+		 "naples",
+		 "turin",
+		 "palermo",
+		 "genoa",
+		 "bologna",
+		 "firenze",
+		 "bari",
+		 "venice"
       ],
       "areas":[
-
+		 "sicily",
+		 "tuscany",
+		 "sardinia",
+		 "puglia"
       ]
    },
    {
@@ -2371,8 +2407,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Japano"
+      "languages":[
+
       ],
       "country_names":[
          "japan"
@@ -2380,8 +2416,8 @@
       "adjectivals":[
          "japanese"
       ],
-      "languages":[
-
+      "prefixes":[
+         "japano"
       ],
       "country_code":"JP",
       "demonyms":[
@@ -2393,11 +2429,18 @@
          "nagoya",
          "kyoto",
          "nara",
-         "kobe"
+         "kobe",
+		 "yokohama",
+		 "sapporo",
+		 "fukuoka",
+		 "sendai",
+		 "hiroshima"
       ],
       "areas":[
          "okinawa",
-         "hokkaido"
+         "hokkaido",
+		 "hyogo",
+		 "kyuushuu"
       ]
    },
    {
@@ -2415,7 +2458,7 @@
          "jordanians"
       ],
       "cities":[
-
+		 "amman"
       ],
       "areas":[
 
@@ -2438,7 +2481,7 @@
          "kazakhs"
       ],
       "cities":[
-
+		 "astana"
       ],
       "areas":[
 
@@ -2459,7 +2502,7 @@
          "kenyans"
       ],
       "cities":[
-
+		 "nairobi"
       ],
       "areas":[
 
@@ -2491,7 +2534,8 @@
    },
    {
       "country_names":[
-         "north korea"
+         "north korea",
+		 "dprk"
       ],
       "adjectivals":[
          "north korean"
@@ -2501,10 +2545,10 @@
       ],
       "country_code":"KP",
       "demonyms":[
-         "koreans"
+         "north koreans"
       ],
       "cities":[
-
+		 "pyongyang"
       ],
       "areas":[
 
@@ -2522,13 +2566,17 @@
       ],
       "country_code":"KR",
       "demonyms":[
-
+		 "south koreans"
       ],
       "cities":[
-
+		 "seoul",
+		 "busan",
+		 "incheon",
+		 "daegu",
+		 "daejeon"
       ],
       "areas":[
-
+		 "gangnam"
       ]
    },
    {
@@ -2545,7 +2593,7 @@
          "kosovars"
       ],
       "cities":[
-
+		 "pristina"
       ],
       "areas":[
 
@@ -2589,7 +2637,7 @@
          "kyrgyzstanis"
       ],
       "cities":[
-
+		 "bishkek"
       ],
       "areas":[
 
@@ -2631,7 +2679,7 @@
          "letts"
       ],
       "cities":[
-
+		 "riga"
       ],
       "areas":[
 
@@ -2652,7 +2700,7 @@
          "lebanese"
       ],
       "cities":[
-
+		 "beirut"
       ],
       "areas":[
 
@@ -2694,7 +2742,7 @@
          "liberians"
       ],
       "cities":[
-
+		 "monrovia"
       ],
       "areas":[
 
@@ -2715,7 +2763,9 @@
          "libyans"
       ],
       "cities":[
-
+		 "tripoli",
+		 "benghazi",
+		 "misrata"
       ],
       "areas":[
 
@@ -2760,7 +2810,7 @@
          "lithuanians"
       ],
       "cities":[
-
+		 "vilnius"
       ],
       "areas":[
 
@@ -2792,15 +2842,13 @@
          "macau"
       ],
       "adjectivals":[
-         "macanese",
-         "chinese"
+         "macanese"
       ],
       "languages":[
 
       ],
       "demonyms":[
-         "macanese",
-         "chinese"
+         "macanese"
       ],
       "cities":[
 
@@ -2872,8 +2920,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Malayo"
+      "languages":[
+
       ],
       "country_names":[
          "malaysia"
@@ -2882,8 +2930,8 @@
          "malaysian",
          "malay"
       ],
-      "languages":[
-
+      "prefixes":[
+         "malayo"
       ],
       "country_code":"MY",
       "demonyms":[
@@ -2962,7 +3010,7 @@
          "maltese"
       ],
       "cities":[
-
+		 "gozo"
       ],
       "areas":[
 
@@ -3094,7 +3142,12 @@
          "mexicans"
       ],
       "cities":[
-
+		 "mexico city",
+		 "ecatepec",
+		 "guadelajara",
+		 "tijuana",
+		 "tulum",
+		 "cancun"
       ],
       "areas":[
 
@@ -3173,8 +3226,8 @@
       ]
    },
    {
-      "prefixes":[
-         "mongolo"
+      "languages":[
+
       ],
       "country_names":[
          "mongolia"
@@ -3182,8 +3235,8 @@
       "adjectivals":[
          "mongolian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "mongolo"
       ],
       "country_code":"MN",
       "demonyms":[
@@ -3191,7 +3244,7 @@
          "mongols"
       ],
       "cities":[
-
+		 "ulan bator"
       ],
       "areas":[
 
@@ -3252,7 +3305,10 @@
          "moroccans"
       ],
       "cities":[
-
+		 "casablanca",
+		 "fez",
+		 "marrakech",
+		 "tangiers"
       ],
       "areas":[
 
@@ -3273,7 +3329,7 @@
          "mozambicans"
       ],
       "cities":[
-
+		 "maputo"
       ],
       "areas":[
 
@@ -3294,7 +3350,7 @@
          "namibians"
       ],
       "cities":[
-
+		 "windhoek"
       ],
       "areas":[
 
@@ -3329,17 +3385,19 @@
          "nepal"
       ],
       "adjectivals":[
-         "nepalese, nepali"
+         "nepalese",
+		 "nepali"
       ],
       "languages":[
 
       ],
       "country_code":"NP",
       "demonyms":[
-         "nepalese, nepali"
+         "nepalese",
+		 "nepali"
       ],
       "cities":[
-
+		 "kathmandu"
       ],
       "areas":[
 
@@ -3363,7 +3421,9 @@
          "netherlanders"
       ],
       "cities":[
-
+		 "amsterdam",
+		 "utrecht",
+		 "rotterdam"
       ],
       "areas":[
 
@@ -3405,7 +3465,7 @@
          "new zealanders"
       ],
       "cities":[
-
+		 "auckland"
       ],
       "areas":[
 
@@ -3426,7 +3486,7 @@
          "nicaraguans"
       ],
       "cities":[
-
+		 "managua"
       ],
       "areas":[
 
@@ -3467,7 +3527,7 @@
          "nigeriens"
       ],
       "cities":[
-
+		 "niamey"
       ],
       "areas":[
 
@@ -3488,7 +3548,8 @@
          "nigerians"
       ],
       "cities":[
-
+		 "lagos",
+		 "abuja"
       ],
       "areas":[
 
@@ -3509,7 +3570,8 @@
          "norwegians"
       ],
       "cities":[
-
+		 "oslo",
+		 "trondheim"
       ],
       "areas":[
 
@@ -3594,10 +3656,17 @@
          "pakistanis"
       ],
       "cities":[
-
+		 "karachi",
+		 "lahore",
+		 "faisalabad",
+		 "hyderabad",
+		 "peshawar",
+		 "islamabad",
+		 "abbottabad"
       ],
       "areas":[
-
+		 "khyber",
+		 "balochistan"
       ]
    },
    {
@@ -3614,10 +3683,11 @@
          "palestinians"
       ],
       "cities":[
-
+		 "ramallah",
+		 "west bank"
       ],
       "areas":[
-
+		 "gaza"
       ]
    },
    {
@@ -3682,7 +3752,7 @@
          "papuans"
       ],
       "cities":[
-
+		 "port moresby"
       ],
       "areas":[
 
@@ -3724,10 +3794,10 @@
          "peruvians"
       ],
       "cities":[
-
+		 "lima"
       ],
       "areas":[
-
+		 "machu picchu"
       ]
    },
    {
@@ -3747,7 +3817,7 @@
          "filipinas"
       ],
       "cities":[
-
+		 "manila"
       ],
       "areas":[
 
@@ -3774,8 +3844,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Luso"
+      "languages":[
+
       ],
       "country_names":[
          "poland"
@@ -3783,18 +3853,24 @@
       "adjectivals":[
          "polish"
       ],
-      "languages":[
-
+      "prefixes":[
+         "luso"
       ],
       "country_code":"PL",
       "demonyms":[
          "poles"
       ],
       "cities":[
-
+		 "warsaw",
+		 "krakow",
+		 "wroclaw",
+		 "gdansk",
+		 "danzig",
+		 "breslau"
       ],
       "areas":[
-
+		 "prussia",
+		 "silesia"
       ]
    },
    {
@@ -3812,7 +3888,8 @@
          "portuguese"
       ],
       "cities":[
-
+		 "lisbon",
+		 "porto"
       ],
       "areas":[
 
@@ -3832,7 +3909,7 @@
          "puerto ricans"
       ],
       "cities":[
-
+		 "san juan"
       ],
       "areas":[
 
@@ -3853,7 +3930,7 @@
          "qataris"
       ],
       "cities":[
-
+		 "doha"
       ],
       "areas":[
 
@@ -3874,7 +3951,7 @@
          "irish"
       ],
       "cities":[
-
+		 "dublin"
       ],
       "areas":[
 
@@ -3895,15 +3972,15 @@
          "romanians"
       ],
       "cities":[
-
+		 "bucharest"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Russo"
+      "languages":[
+
       ],
       "country_names":[
          "russia"
@@ -3911,17 +3988,22 @@
       "adjectivals":[
          "russian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "russo"
       ],
       "demonyms":[
          "russians"
       ],
       "cities":[
-
+		 "moscow",
+		 "petersburg",
+		 "novosibirsk",
+		 "yekaterinburg",
+		 "vladivostok",
+		 "leningrad"
       ],
       "areas":[
-
+		 "crimea"
       ]
    },
    {
@@ -3936,10 +4018,11 @@
       ],
       "country_code":"RW",
       "demonyms":[
-         "rwandans, banyarwanda"
+         "rwandans",
+		 "banyarwanda"
       ],
       "cities":[
-
+		 "kigali"
       ],
       "areas":[
 
@@ -4009,7 +4092,7 @@
          "st. lucians"
       ],
       "cities":[
-
+		 "castries"
       ],
       "areas":[
 
@@ -4133,8 +4216,8 @@
       ]
    },
    {
-      "prefixes":[
-         "arabo"
+      "languages":[
+
       ],
       "country_names":[
          "saudi arabia"
@@ -4143,8 +4226,8 @@
          "saudi",
          "saudi arabian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "arabo"
       ],
       "country_code":"SA",
       "demonyms":[
@@ -4152,7 +4235,8 @@
          "saudi arabians"
       ],
       "cities":[
-
+		 "riyadh",
+		 "jeddah"
       ],
       "areas":[
 
@@ -4231,15 +4315,15 @@
          "senegalese"
       ],
       "cities":[
-
+		 "dakar"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Serbo"
+      "languages":[
+
       ],
       "country_names":[
          "serbia"
@@ -4247,8 +4331,8 @@
       "adjectivals":[
          "serbian"
       ],
-      "languages":[
-
+      "prefixes":[
+         "serbo"
       ],
       "country_code":"RS",
       "demonyms":[
@@ -4256,7 +4340,7 @@
          "serbs"
       ],
       "cities":[
-
+		 "belgrade"
       ],
       "areas":[
 
@@ -4302,7 +4386,7 @@
          "sierra leoneans"
       ],
       "cities":[
-
+		 "freetown"
       ],
       "areas":[
 
@@ -4347,15 +4431,16 @@
          "slovaks"
       ],
       "cities":[
-
+		 "bratislava",
+		 "kosice"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Sloveno"
+      "languages":[
+
       ],
       "country_names":[
          "slovenia"
@@ -4364,8 +4449,8 @@
          "slovenian",
          "slovene"
       ],
-      "languages":[
-
+      "prefixes":[
+         "sloveno"
       ],
       "country_code":"SI",
       "demonyms":[
@@ -4373,7 +4458,9 @@
          "slovenes"
       ],
       "cities":[
-
+		 "ljubljana",
+		 "maribor",
+		 "celje"
       ],
       "areas":[
 
@@ -4394,7 +4481,7 @@
          "solomon islanders"
       ],
       "cities":[
-
+		 "honiara"
       ],
       "areas":[
 
@@ -4417,7 +4504,9 @@
          "somalians"
       ],
       "cities":[
-
+		 "mogadishu",
+		 "hargeisa",
+		 "bosaso"
       ],
       "areas":[
 
@@ -4438,14 +4527,20 @@
          "south africans"
       ],
       "cities":[
-
+		 "johannesburg",
+		 "cape town",
+		 "durban",
+		 "pretoria"
       ],
       "areas":[
-
+		 "kwazulu",
+		 "gauteng",
+		 "limpopo"
       ]
    },
    {
       "country_names":[
+		 "ossetia",
          "south ossetia"
       ],
       "adjectivals":[
@@ -4458,7 +4553,7 @@
          "south ossetians"
       ],
       "cities":[
-
+		 "tskhinvali"
       ],
       "areas":[
 
@@ -4478,15 +4573,15 @@
          "south sudanese"
       ],
       "cities":[
-
+		 "juba"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Hispano"
+      "languages":[
+
       ],
       "country_names":[
          "spain"
@@ -4494,18 +4589,31 @@
       "adjectivals":[
          "spanish"
       ],
-      "languages":[
-
+      "prefixes":[
+         "hispano"
       ],
       "country_code":"ES",
       "demonyms":[
          "spaniards"
       ],
       "cities":[
-
+		 "madrid",
+		 "barcelona",
+		 "seville",
+		 "bilbao",
+		 "malaga",
+		 "alicante",
+		 "zaragoza",
+		 "granada",
+		 "cadiz",
+		 "cordoba",
+		 "marbella"
       ],
       "areas":[
-
+		 "andalusia",
+		 "basque",
+		 "cantabria",
+		 "catalonia"
       ]
    },
    {
@@ -4516,14 +4624,17 @@
          "sri lankan"
       ],
       "languages":[
-
+		 "tamil",
+		 "sinhala"
       ],
       "country_code":"LK",
       "demonyms":[
          "sri lankans"
       ],
       "cities":[
-
+		 "colombo",
+		 "dehiwala",
+		 "moratuwa"
       ],
       "areas":[
 
@@ -4544,7 +4655,9 @@
          "sudanese"
       ],
       "cities":[
-
+		 "omdurman",
+		 "khartoum",
+		 "nyala"
       ],
       "areas":[
 
@@ -4564,7 +4677,7 @@
          "surinamers"
       ],
       "cities":[
-
+		 "paramaribo"
       ],
       "areas":[
 
@@ -4585,15 +4698,16 @@
          "swazis"
       ],
       "cities":[
-
+		 "manzini",
+		 "mbabene"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Swedo"
+      "languages":[
+
       ],
       "country_names":[
          "sweden"
@@ -4601,23 +4715,30 @@
       "adjectivals":[
          "swedish"
       ],
-      "languages":[
-
+      "prefixes":[
+         "swedo"
       ],
       "country_code":"SE",
       "demonyms":[
          "swedes"
       ],
       "cities":[
-
+		 "stockholm",
+		 "gothenburg",
+		 "malmo",
+		 "uppsala",
+		 "vasteras",
+		 "orebro",
+		 "linkoping",
+		 "eskilstuna"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Helveto"
+      "languages":[
+
       ],
       "country_names":[
          "switzerland"
@@ -4625,8 +4746,8 @@
       "adjectivals":[
          "swiss"
       ],
-      "languages":[
-
+      "prefixes":[
+         "helveto"
       ],
       "country_code":"CH",
       "demonyms":[
@@ -4636,11 +4757,35 @@
          "geneva",
          "zurich",
          "lausanne",
-         "bern"
+         "bern",
+		 "basel",
+		 "winterthur"
       ],
       "areas":[
-         "vaud",
-         "neuchatel"
+         "aargau",
+		 "appenzell",
+		 "berne",
+		 "basle",
+		 "fribourg",
+		 "geneva",
+		 "glaris",
+		 "grisons",
+		 "jura",
+		 "lucerne",
+		 "neuchatel",
+		 "nidwalden",
+		 "obwalden",
+		 "st gall",
+		 "schaffhausen",
+		 "solothurn",
+		 "schwyz",
+		 "thurgau",
+		 "ticino",
+		 "uri",
+		 "vaud",
+		 "valais",
+		 "zug",
+		 "zurich"
       ]
    },
    {
@@ -4657,7 +4802,10 @@
          "syrians"
       ],
       "cities":[
-
+		 "aleppo",
+		 "damascus",
+		 "homs",
+		 "latakia"
       ],
       "areas":[
 
@@ -4678,7 +4826,11 @@
          "taiwanese"
       ],
       "cities":[
-
+		 "taipei",
+		 "kaohsiung",
+		 "taichung",
+		 "taoyuan",
+		 "tainan"
       ],
       "areas":[
 
@@ -4700,7 +4852,9 @@
          "tajiks"
       ],
       "cities":[
-
+		 "dushanbe",
+		 "khujand",
+		 "kulob"
       ],
       "areas":[
 
@@ -4721,15 +4875,20 @@
          "tanzanians"
       ],
       "cities":[
-
+		 "dar es salaam",
+		 "mwanza",
+		 "arusha",
+		 "dodoma",
+		 "mbeya",
+		 "morogoro"
       ],
       "areas":[
-
+		 "ngorongoro"
       ]
    },
    {
-      "prefixes":[
-         "Siamo"
+      "languages":[
+
       ],
       "country_names":[
          "thailand"
@@ -4737,18 +4896,29 @@
       "adjectivals":[
          "thai"
       ],
-      "languages":[
-
+      "prefixes":[
+         "siamo"
       ],
       "country_code":"TH",
       "demonyms":[
          "thai"
       ],
       "cities":[
-
+		 "bangkok",
+		 "nonthaburi",
+		 "ratchasima",
+		 "chiang mai",
+		 "hat yai",
+		 "udon thani",
+		 "pak kret",
+		 "khon kaen",
+		 "pattaya",
+		 "chiang rai"
       ],
       "areas":[
-
+		 "phuket",
+		 "krabi",
+		 "ko samui"
       ]
    },
    {
@@ -4759,14 +4929,15 @@
          "togolese"
       ],
       "languages":[
-
+		 "kotocoli",
+		 "kabiye"
       ],
       "country_code":"TG",
       "demonyms":[
          "togolese"
       ],
       "cities":[
-
+		 "lomé"
       ],
       "areas":[
 
@@ -4790,7 +4961,7 @@
          "tongans"
       ],
       "cities":[
-
+		 "nukualofa"
       ],
       "areas":[
 
@@ -4811,7 +4982,8 @@
          "trinidadians, tobagonians"
       ],
       "cities":[
-
+		 "port of spain",
+		 "chaguanas"
       ],
       "areas":[
 
@@ -4832,16 +5004,21 @@
          "tunisians"
       ],
       "cities":[
-
+		 "tunis",
+		 "sfax",
+		 "sousse",
+		 "kairouan",
+		 "ettadhamen",
+		 "gabes",
+		 "bizerte"
       ],
       "areas":[
 
       ]
    },
    {
-      "prefixes":[
-         "Turco",
-         "Turko"
+      "languages":[
+
       ],
       "country_names":[
          "turkey"
@@ -4849,15 +5026,27 @@
       "adjectivals":[
          "turkish"
       ],
-      "languages":[
-
+      "prefixes":[
+         "turco",
+         "turko"
       ],
       "country_code":"TR",
       "demonyms":[
          "turks"
       ],
       "cities":[
-
+		 "istanbul",
+		 "constantinople",
+		 "ankara",
+		 "izmir",
+		 "bursa",
+		 "adana",
+		 "gaziantep",
+		 "antalya",
+		 "kayseri",
+		 "mersin",
+		 "eskisehir",
+		 "diyarbakir"
       ],
       "areas":[
 
@@ -4878,7 +5067,9 @@
          "turkmens"
       ],
       "cities":[
-
+		 "asgabat",
+		 "turkmenabat",
+		 "dasoguz"
       ],
       "areas":[
 
@@ -4898,7 +5089,8 @@
          "turks and caicos islanders"
       ],
       "cities":[
-
+		 "cockburn town",
+		 "providenciales"
       ],
       "areas":[
 
@@ -4922,7 +5114,7 @@
          "tuvaluans"
       ],
       "cities":[
-
+		 "funafuti"
       ],
       "areas":[
 
@@ -4943,7 +5135,13 @@
          "ugandans"
       ],
       "cities":[
-
+		 "kampala",
+		 "mbarara",
+		 "mukono",
+		 "gulu",
+		 "nansana",
+		 "kasese",
+		 "hoima"
       ],
       "areas":[
 
@@ -4964,7 +5162,14 @@
          "ukrainians"
       ],
       "cities":[
-
+		 "kiev",
+		 "kharkiv",
+		 "dnipropetrovsk",
+		 "odessa",
+		 "donetsk",
+		 "zaporizhia",
+		 "lviv",
+		 "kryvyi rih"
       ],
       "areas":[
 
@@ -4989,7 +5194,12 @@
          "emiri"
       ],
       "cities":[
-
+		 "dubai",
+		 "abu dhabi",
+		 "sharjah",
+		 "al ain",
+		 "ajman",
+		 "ras al-khaimah"
       ],
       "areas":[
 
@@ -4997,7 +5207,8 @@
    },
    {
       "country_names":[
-         "united kingdom"
+         "united kingdom",
+		 "england"
       ],
       "adjectivals":[
          "british"
@@ -5005,6 +5216,9 @@
       "languages":[
 
       ],
+	  "nicknames": [
+		 "blighty"
+	  ],
       "country_code":"GB",
       "demonyms":[
          "britons",
@@ -5012,7 +5226,32 @@
          "brits"
       ],
       "cities":[
-         "london"
+         "london",
+		 "liverpool",
+		 "manchester",
+		 "newcastle",
+		 "coventry",
+		 "st albans",
+		 "oxford",
+		 "leeds",
+		 "bradford",
+		 "nottingham",
+		 "leicester",
+		 "bristol",
+		 "cardiff",
+		 "southend",
+		 "luton",
+		 "blackpool",
+		 "grimsby",
+		 "norwich",
+		 "wigan",
+		 "doncaster",
+		 "basildon",
+		 "wycombe",
+		 "colchester",
+		 "basingstoke",
+		 "maidstone",
+		 "bedford"
       ],
       "areas":[
          "avon",
@@ -5087,6 +5326,11 @@
       "languages":[
 
       ],
+	  "nicknames": [
+		 "merica",
+		 "murica",
+		 "uncle sam"
+	  ],
       "country_code":"US",
       "demonyms":[
          "americans"
@@ -5183,7 +5427,10 @@
          "washington",
          "west virginia",
          "wisconsin",
-         "wyoming"
+         "wyoming",
+		 "manhattan",
+		 "brooklyn",
+		 "oakland"
       ]
    },
    {
@@ -5201,7 +5448,11 @@
          "uruguayans"
       ],
       "cities":[
-
+		 "montevideo",
+		 "salto",
+		 "ciudad de la costa",
+		 "paysandu",
+		 "las piedras"
       ],
       "areas":[
 
@@ -5216,7 +5467,8 @@
          "uzbek"
       ],
       "languages":[
-
+		 "uzbek",
+		 "karakalpak"
       ],
       "country_code":"UZ",
       "demonyms":[
@@ -5224,7 +5476,7 @@
          "uzbeks"
       ],
       "cities":[
-
+		 "tashkent"
       ],
       "areas":[
 
@@ -5246,7 +5498,7 @@
          "ni-vanuatu"
       ],
       "cities":[
-
+		 "port vila"
       ],
       "areas":[
 
@@ -5292,7 +5544,10 @@
          "venezuelans"
       ],
       "cities":[
-
+		 "caracas",
+		 "maracaibo",
+		 "barquisimeto",
+		 "maracay"
       ],
       "areas":[
 
@@ -5313,7 +5568,11 @@
          "vietnamese"
       ],
       "cities":[
-
+		 "can tho",
+		 "da nang",
+		 "hai phong",
+		 "ha noi",
+		 "ho chi minh"
       ],
       "areas":[
 
@@ -5340,8 +5599,8 @@
       ]
    },
    {
-      "prefixes":[
-         "Cymro"
+      "languages":[
+
       ],
       "country_names":[
          "wales"
@@ -5349,8 +5608,8 @@
       "adjectivals":[
          "welsh"
       ],
-      "languages":[
-
+      "prefixes":[
+         "cymro"
       ],
       "demonyms":[
          "welsh"
@@ -5422,7 +5681,13 @@
          "yemenis"
       ],
       "cities":[
-
+		 "sana'a",
+		 "sanaa",
+		 "ta'izz",
+		 "taizz",
+		 "hudayah",
+		 "aden",
+		 "ibb"
       ],
       "areas":[
 
@@ -5443,7 +5708,13 @@
          "zambians"
       ],
       "cities":[
-
+		 "lusaka",
+		 "ndola",
+		 "kitwe",
+		 "kabwe",
+		 "chingola",
+		 "mufulira",
+		 "luanshya"
       ],
       "areas":[
 
@@ -5464,7 +5735,12 @@
          "zimbabweans"
       ],
       "cities":[
-
+		 "harare",
+		 "bulawayo",
+		 "chitungziwa",
+		 "mutare",
+		 "gweru",
+		 "kwekwe"
       ],
       "areas":[
 
