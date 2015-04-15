@@ -46,8 +46,8 @@
             <th>Country</th><th>Hits</th>
           </tr>
           {% for country in data.countries %}
-            {% if country.1 > 25 %}
-            <tr><td>{{country.0}}</td><td>{{country.1}}</td></tr>
+            {% if loop.index < 25 %}
+            <tr><td>{{country.3}}</td><td>{{country.1}}</td></tr>
             {% endif %}
           {% endfor %}
         </table>

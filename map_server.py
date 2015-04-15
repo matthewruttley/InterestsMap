@@ -90,16 +90,28 @@ def find_country_urls():
 	
 	#set up the results datatype
 	results = defaultdict(lambda: [0, defaultdict(int)])
-	
+
 	#iterate through urls
 	for result in c.execute(query):
 		url = result[0].lower()
-		keywords = findall("[a-z]{2,}", url)
-		ngrams = create_ngrams(keywords)
+		keywords = findall("[a-z]{2,}", url) #tokenize the url
+		ngrams = create_ngrams(keywords) #generate all possible ngrams
+		
+		#a url can't reference the same country twice so we have to do a count instead
+		tmp_countries = defaultdict(int)
+		tmp_ngrams = defaultdict(lambda: defaultdict(int))
+		
 		for ngram in ngrams:
-			if ngram in mappings:
-				results[mappings[ngram]][0] += result[1]
-				results[mappings[ngram]][1][" ".join(ngram)] += result[1]
+			if ngram in mappings: #1 url can't reference the same country twice
+				tmp_countries[mappings[ngram]] += 1
+				tmp_ngrams[mappings[ngram]][" ".join(ngram)] += 1
+		
+		for country in tmp_countries.iterkeys():
+			results[country][0] += result[1]
+		
+		for country, ngrams in tmp_ngrams.iteritems():
+			for ngram in ngrams:
+				results[country][1][ngram] += result[1]
 	
 	results = sorted(results.items(), key=lambda x: x[1][0], reverse=True)
 	for x in range(len(results)):
@@ -107,19 +119,35 @@ def find_country_urls():
 	
 	return results
 
+def country_code_to_name():
+	"""Basic mapping"""
+	mapping = {}
+	
+	with copen('countries_en.json', encoding='utf8') as f:
+		payload = load(f)
+		for entry in payload:
+			if 'country_code' in entry:
+				mapping[entry['country_code']] = entry['country_names'][0]
+	
+	return mapping
+
 @app.route('/')
 def show_main_page():
 	#get a list of countries
 	data = {'countries': []}
 	
+	code_mapping = country_code_to_name()
+	
 	for x in find_country_urls():
-		data['countries'].append(
-			[
-				x[0],   #country code
-				x[1][0],#hits
-				x[1][1] #specific 2nd tier keyword hits
-			]
-		)
+		if type(x[0]) != tuple: #will deal with islands later
+			data['countries'].append(
+				[
+					x[0],   #country code
+					x[1][0],#hits
+					x[1][1], #specific 2nd tier keyword hits
+					code_mapping[x[0]]   #country name
+				]
+			)
 	
 	#render the template
 	return render_template("map.html", data=data, main_page=True)
