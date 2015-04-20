@@ -46,9 +46,7 @@
             <th>Country</th><th>Hits</th>
           </tr>
           {% for country in data.countries %}
-            {% if loop.index < 25 %}
-            <tr><td>{{country.3}}</td><td>{{country.1}}</td></tr>
-            {% endif %}
+            {% if loop.index < 25 %}<tr><td>{{country.3}}</td><td>{{country.1}}</td></tr>{% endif %}
           {% endfor %}
         </table>
       </div>
@@ -68,6 +66,17 @@
               scale: ['#C8EEFF', '#0071A4'],
               normalizeFunction: 'polynomial'
             }]
+          },
+          markers: [
+            {% for city in data.cities %}
+            {latLng: {{city.latlong}}, name: '{{city.name}} - {{city.hits}} hits'},
+            {% endfor %}
+          ],
+          markerStyle: {
+            initial: {
+              fill: '#F8E23B',
+              stroke: '#383f47'
+            }
           },
           onRegionTipShow: function(e, el, code){
             hits = 0

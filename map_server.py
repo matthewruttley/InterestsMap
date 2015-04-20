@@ -18,14 +18,14 @@ def load_countries():
 	"""Creates a useful datatype from the countries json file, where
 	each keyword is turned into a tuple and references a countrycode"""
 	
-	with copen('countries_en.json', encoding='utf8') as f:
+	with copen('countries_en_2.json', encoding='utf8') as f:
 		payload = load(f)
 	
 	keywords = {} #mapping kw --> country
 	for entry in payload:
-		if 'latlong' in entry:
-			code = tuple(entry['latlong'])
-		elif 'country_code' in entry:
+		#if 'latlong' in entry:
+		#	code = tuple(entry['latlong'])
+		if 'country_code' in entry:
 			code = (entry['country_code'])
 		else:
 			continue
@@ -33,9 +33,27 @@ def load_countries():
 		for k,v in entry.iteritems():
 			if k != 'latlong':
 				for kw in v:
-					keywords[tuple(kw.split())] = code
-				
+					keywords[tuple(kw.lower().split())] = code
+	
 	return keywords
+
+def load_cities():
+	"""Creates a payload of (city) --> [count, longlat].
+	Should be integrated into load_countries() in the future"""
+	
+	with copen('countries_en_2.json', encoding='utf8') as f:
+		payload = load(f)
+	
+	cities = {}
+	
+	for country in payload:
+		if type(country['cities']) == dict:
+			for city, latlong in country['cities'].iteritems():
+				city = tuple(city.split())
+				cities[city] = latlong
+	
+	return cities
+	
 
 def create_ngrams(kw_iterable):
 	"""takes a list of keywords and computes all possible ngrams e.g.
@@ -87,9 +105,11 @@ def find_country_urls():
 	
 	#load the json
 	mappings = load_countries()
+	cities = load_cities()
 	
 	#set up the results datatype
 	results = defaultdict(lambda: [0, defaultdict(int)])
+	city_results = defaultdict(lambda: [0, False])
 
 	#iterate through urls
 	for result in c.execute(query):
@@ -100,11 +120,15 @@ def find_country_urls():
 		#a url can't reference the same country twice so we have to do a count instead
 		tmp_countries = defaultdict(int)
 		tmp_ngrams = defaultdict(lambda: defaultdict(int))
+		tmp_cities = defaultdict(lambda: [0, False])
 		
 		for ngram in ngrams:
 			if ngram in mappings: #1 url can't reference the same country twice
 				tmp_countries[mappings[ngram]] += 1
 				tmp_ngrams[mappings[ngram]][" ".join(ngram)] += 1
+			if ngram in cities:
+				tmp_cities[ngram][0] += 1
+				tmp_cities[ngram][1] = cities[ngram]
 		
 		for country in tmp_countries.iterkeys():
 			results[country][0] += result[1]
@@ -112,12 +136,16 @@ def find_country_urls():
 		for country, ngrams in tmp_ngrams.iteritems():
 			for ngram in ngrams:
 				results[country][1][ngram] += result[1]
+		
+		for city, info in tmp_cities.iteritems():
+			city_results[city][0] += 1
+			city_results[city][1] = info[1]
 	
 	results = sorted(results.items(), key=lambda x: x[1][0], reverse=True)
 	for x in range(len(results)):
 		results[x][1][1] = sorted(results[x][1][1].items(), key=lambda y: y[1], reverse=True)
 	
-	return results
+	return [results, city_results]
 
 def country_code_to_name():
 	"""Basic mapping"""
@@ -138,7 +166,9 @@ def show_main_page():
 	
 	code_mapping = country_code_to_name()
 	
-	for x in find_country_urls():
+	countries, cities = find_country_urls()
+	
+	for x in countries:
 		if type(x[0]) != tuple: #will deal with islands later
 			data['countries'].append(
 				[
@@ -148,6 +178,14 @@ def show_main_page():
 					code_mapping[x[0]]   #country name
 				]
 			)
+	
+	data['cities'] = []
+	for city_name, info in cities.iteritems():
+		data['cities'].append({
+				'name': " ".join(city_name),
+				'latlong': info[1],
+				'hits': info[0]
+			})
 	
 	#render the template
 	return render_template("map.html", data=data, main_page=True)
