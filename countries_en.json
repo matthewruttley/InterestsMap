@@ -35,9 +35,9 @@
       "demonyms":[
          "afghans"
       ],
-      "cities":[
-         "kabul"
-      ],
+      "cities":{
+         "kabul": [34.52813, 69.17233]
+      },
       "areas":[
          "helmand"
       ]
@@ -1155,10 +1155,10 @@
          "congolese"
       ],
       "cities":[
-		 "kinshasa"
+	  
       ],
       "areas":[
-
+   
       ]
    },
    {
@@ -1336,7 +1336,7 @@
          "danes"
       ],
       "cities":[
-         "kinshasa"
+         "copenhagen"
       ],
       "areas":[
 
@@ -3144,13 +3144,12 @@
       "cities":[
 		 "mexico city",
 		 "ecatepec",
-		 "guadelajara",
-		 "tijuana",
-		 "tulum",
+		 "guadalajara",
+		 "tijuana",		 
 		 "cancun"
       ],
       "areas":[
-
+		 "tulum"
       ]
    },
    {
