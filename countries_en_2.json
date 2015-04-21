@@ -1,23 +1,6 @@
 [
     {
         "country_names": [
-            "abkhazia"
-        ],
-        "adjectivals": [
-            "abkhaz",
-            "abkhazian"
-        ],
-        "languages": [],
-        "demonyms": [
-            "abkhazians"
-        ],
-        "cities": [
-            "sukhumi"
-        ],
-        "areas": []
-    },
-    {
-        "country_names": [
             "afghanistan"
         ],
         "adjectivals": [
@@ -92,8 +75,7 @@
             "amerika sāmoa"
         ],
         "adjectivals": [
-            "american samoan",
-            "samoan"
+            "american samoan"
         ],
         "languages": [],
         "demonyms": [
@@ -102,7 +84,12 @@
         "cities": [
             "pago pago"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "AS",
+		"latlong": [
+			-14.27806,
+			-170.7025
+		]
     },
     {
         "country_names": [
@@ -124,7 +111,8 @@
         "cities": [
             "andorra la vella"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "AD"
     },
     {
         "country_names": [
@@ -158,7 +146,12 @@
             "anguillans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "AI",
+		"latlong": [
+			18.21704,
+			-63.05783
+		]
     },
     {
         "country_names": [
@@ -243,10 +236,18 @@
         "demonyms": [
             "arubans"
         ],
-        "cities": [
-            "oranjestad"
-        ],
-        "areas": []
+        "cities": {
+            "oranjestad": [
+				12.52398,
+				-70.02703
+			]
+        },
+        "areas": [],
+		"country_code": "AW",
+		"latlong": [
+			12.52398,
+			-70.02703
+		]
     },
     {
         "prefixes": [
@@ -370,7 +371,8 @@
             "manama",
             "al-manāmah"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "BH"
     },
     {
         "country_names": [
@@ -529,10 +531,18 @@
             "bermudians",
             "bermudans"
         ],
-        "cities": [
-            "hamilton"
-        ],
-        "areas": []
+        "cities": {
+            "hamilton": [
+				32.2949,
+				-64.78303
+			]
+        },
+        "areas": [],
+		"country_code": "BM",
+		"latlong": [
+			32.2949,
+			-64.78303
+		]
     },
     {
         "country_names": [
@@ -674,7 +684,8 @@
         "cities": [
             "road town"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "VG"
     },
     {
         "country_names": [
@@ -694,7 +705,8 @@
             "bandar",
             "bandar seri begawan"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "BN"
     },
     {
         "prefixes": [
@@ -746,13 +758,14 @@
     },
     {
         "country_names": [
-            "burma"
+            "myanmar",
+			"burma"
         ],
         "adjectivals": [
             "burmese"
         ],
         "languages": [
-            "Myanma"
+            "myanma"
         ],
         "demonyms": [
             "bamar",
@@ -761,7 +774,8 @@
         "cities": [
             "naypyidaw"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "MM"
     },
     {
         "country_names": [
@@ -771,7 +785,7 @@
             "burundian"
         ],
         "languages": [
-            "Kirundi"
+            "kirundi"
         ],
         "country_code": "BI",
         "demonyms": [
@@ -900,7 +914,11 @@
                 -23.51254
             ]
         },
-        "areas": []
+        "areas": [],
+		"latlong": [
+			15.1111,
+			-23.6167
+		]
     },
     {
         "country_names": [
@@ -916,7 +934,12 @@
         "cities": [
             "george town"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "KY",
+		"latlong": [
+			19.316749,
+			-81.25917
+		]
     },
     {
         "country_names": [
@@ -1144,11 +1167,13 @@
         "cities": [
             "flying fish cove"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "CX"
     },
     {
         "country_names": [
-            "cocos islands"
+            "cocos islands",
+			"keeling islands"
         ],
         "adjectivals": [
             "cocos island"
@@ -1158,7 +1183,8 @@
             "cocos islanders"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "CC"
     },
     {
         "country_names": [
@@ -1232,7 +1258,12 @@
         "cities": [
             "avarua"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "CK",
+		"latlong": [
+			-21.214626,
+			-159.790177
+		]
     },
     {
         "country_names": [
@@ -1443,7 +1474,8 @@
     },
     {
         "country_names": [
-            "east timor"
+            "east timor",
+			"timor-leste"
         ],
         "adjectivals": [
             "timorese"
@@ -1455,7 +1487,8 @@
         "cities": [
             "dili"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "TL"
     },
     {
         "country_names": [
@@ -1639,7 +1672,8 @@
         "cities": [
             "torshavn"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "FO"
     },
     {
         "country_names": [
@@ -1795,7 +1829,11 @@
             "tahitians"
         ],
         "cities": {},
-        "areas": []
+        "areas": [],
+		"latlong": [
+			-17.5333,
+			-149.5667
+		]
     },
     {
         "country_names": [
@@ -1911,7 +1949,12 @@
             "gibraltarians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "GI",
+		"latlong": [
+			36.2,
+			-5.4
+		]
     },
     {
         "prefixes": [
@@ -1991,7 +2034,8 @@
             "guadeloupians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "GP"
     },
     {
         "country_names": [
@@ -2006,7 +2050,12 @@
             "guamanians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "GU",
+		"latlong": [
+			13.5000,
+			144.8000
+		]
     },
     {
         "country_names": [
@@ -2125,9 +2174,17 @@
             "hongkongese"
         ],
         "cities": [],
-        "areas": [
-            "kowloon"
-        ]
+        "areas": {
+            "kowloon": [
+				22.31667,
+				114.18333
+			]
+        },
+		"country_code": "HK",
+		"latlong": [
+			22.28552,
+			114.15769
+		]
     },
     {
         "prefixes": [
@@ -2334,8 +2391,13 @@
         "demonyms": [
             "manx"
         ],
-        "cities": [],
-        "areas": []
+        "cities": {},
+        "areas": [],
+		"country_code": "IM",
+		"latlong": [
+			54.25,
+			-4.5
+		]
     },
     {
         "country_names": [
@@ -2595,7 +2657,8 @@
             "i-kiribati"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "KI"
     },
     {
         "country_names": [
@@ -2658,22 +2721,6 @@
     },
     {
         "country_names": [
-            "kosovo"
-        ],
-        "adjectivals": [
-            "kosovar, kosovan"
-        ],
-        "languages": [],
-        "demonyms": [
-            "kosovars"
-        ],
-        "cities": [
-            "pristina"
-        ],
-        "areas": []
-    },
-    {
-        "country_names": [
             "kuwait"
         ],
         "adjectivals": [
@@ -2704,21 +2751,25 @@
         "cities": [
             "bishkek"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "KG"
     },
     {
         "country_names": [
             "laos"
         ],
         "adjectivals": [
-            "laotian, lao"
+            "laotian",
+			"lao"
         ],
         "languages": [],
         "demonyms": [
-            "laotians, laos"
+            "laotians",
+			"laos"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "LA"
     },
     {
         "country_names": [
@@ -2840,7 +2891,8 @@
             "liechtensteiners"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "LI"
     },
     {
         "country_names": [
@@ -2875,11 +2927,13 @@
             "luxembourgers"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "LU"
     },
     {
         "country_names": [
-            "macau"
+            "macau",
+			"macao"
         ],
         "adjectivals": [
             "macanese"
@@ -2889,11 +2943,16 @@
             "macanese"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MO",
+		"latlong": [
+			22.1667,
+			113.5500
+		]
     },
     {
         "country_names": [
-            "republic of macedonia"
+            "macedonia"
         ],
         "adjectivals": [
             "macedonian"
@@ -2903,7 +2962,8 @@
             "macedonians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MK"
     },
     {
         "country_names": [
@@ -3024,7 +3084,8 @@
             "marshallese"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MH"
     },
     {
         "country_names": [
@@ -3039,7 +3100,12 @@
             "martiniquais"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MQ",
+		"latlong": [
+			14.6667,
+			-61.0000
+		]
     },
     {
         "country_names": [
@@ -3050,8 +3116,8 @@
         ],
         "languages": [],
         "latlong": [
-            -20.2,
-            57.5
+            25.410035,
+			-5.785217
         ],
         "country_code": "MR",
         "demonyms": [
@@ -3087,7 +3153,12 @@
             "mahorais"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "YT",
+		"latlong": [
+			-12.8431,
+			45.1383
+		]
     },
     {
         "country_names": [
@@ -3144,7 +3215,8 @@
             "micronesians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "FM"
     },
     {
         "country_names": [
@@ -3179,7 +3251,8 @@
             "monacans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MC"
     },
     {
         "prefixes": [
@@ -3217,7 +3290,8 @@
             "montenegrins"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "ME"
     },
     {
         "country_names": [
@@ -3231,7 +3305,8 @@
             "montserratians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MS"
     },
     {
         "country_names": [
@@ -3321,7 +3396,8 @@
             "nauruans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "NR"
     },
     {
         "country_names": [
@@ -3443,7 +3519,12 @@
             "niueans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "NU",
+		"latlong": [
+			-19.0500,
+			-169.9167
+		]
     },
     {
         "country_names": [
@@ -3515,27 +3596,6 @@
     },
     {
         "country_names": [
-            "northern ireland"
-        ],
-        "adjectivals": [
-            "northern irish"
-        ],
-        "languages": [],
-        "demonyms": [
-            "northern irish"
-        ],
-        "cities": [
-            "belfast"
-        ],
-        "areas": [
-            "antrim",
-            "armagh",
-            "fermanagh",
-            "londonderry"
-        ]
-    },
-    {
-        "country_names": [
             "northern marianas"
         ],
         "adjectivals": [
@@ -3546,7 +3606,8 @@
             "northern marianans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "MP"
     },
     {
         "country_names": [
@@ -3627,7 +3688,8 @@
         ],
         "areas": [
             "gaza"
-        ]
+        ],
+		"country_code": "PS"
     },
     {
         "country_names": [
@@ -3645,7 +3707,8 @@
             "palauans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "PW"
     },
     {
         "country_names": [
@@ -3755,7 +3818,12 @@
             "pitcairn islanders"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "PN",
+		"latlong": [
+			-25.06597,
+			-130.10147
+		]
     },
     {
         "prefixes": [
@@ -3838,10 +3906,14 @@
         "demonyms": [
             "puerto ricans"
         ],
-        "cities": [
-            "san juan"
-        ],
-        "areas": []
+        "cities": {
+            "san juan": [
+				18.46633,
+				-66.10572
+			]
+        },
+        "areas": [],
+		"country_code": "PR"
     },
     {
         "country_names": [
@@ -3927,7 +3999,8 @@
         ],
         "areas": [
             "crimea"
-        ]
+        ],
+		"country_code": "RU"
     },
     {
         "country_names": [
@@ -3952,7 +4025,8 @@
     },
     {
         "country_names": [
-            "st. helena"
+            "st. helena",
+			"st helena"
         ],
         "adjectivals": [
             "st. helenian"
@@ -3962,7 +4036,12 @@
             "st. helenians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "SH",
+		"latlong": [
+			-15.9500,
+			-5.7167
+		]
     },
     {
         "country_names": [
@@ -3982,7 +4061,8 @@
             "nevisians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "KN"
     },
     {
         "country_names": [
@@ -4002,7 +4082,8 @@
         "cities": [
             "castries"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "LC"
     },
     {
         "country_names": [
@@ -4018,7 +4099,12 @@
             "miquelonnais"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "PM",
+		"latlong": [
+			46.7833,
+			-56.2000
+		]
     },
     {
         "country_names": [
@@ -4038,7 +4124,8 @@
             "vincentians"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "VC"
     },
     {
         "country_names": [
@@ -4052,7 +4139,12 @@
             "samoans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "WS",
+		"latlong": [
+			-13.8333,
+			-171.7500
+		]
     },
     {
         "country_names": [
@@ -4070,7 +4162,8 @@
             "sammarinese"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "SM"
     },
     {
         "country_names": [
@@ -4122,62 +4215,6 @@
     },
     {
         "country_names": [
-            "scotland"
-        ],
-        "adjectivals": [
-            "scots",
-            "scottish"
-        ],
-        "languages": [],
-        "demonyms": [
-            "scots"
-        ],
-        "cities": [
-            "aberdeen",
-            "dundee",
-            "edinburgh",
-            "glasgow"
-        ],
-        "areas": [
-            "aberdeenshire",
-            "argyll",
-            "ayrshire",
-            "banffshire",
-            "berwickshire",
-            "bute",
-            "caithness",
-            "clackmannanshire",
-            "cromartyshire",
-            "dumfriesshire",
-            "dunbartonshire",
-            "dumbarton",
-            "lothian",
-            "fife",
-            "inverness-shire",
-            "kincardineshire",
-            "kinross-shire",
-            "kirkcudbrightshire",
-            "lanarkshire",
-            "midlothian",
-            "moray",
-            "nairnshire",
-            "orkney",
-            "peeblesshire",
-            "perthshire",
-            "renfrewshire",
-            "ross and cromarty",
-            "ross-shire",
-            "roxburghshire",
-            "selkirkshire",
-            "shetland",
-            "stirlingshire",
-            "sutherland",
-            "linlithgowshire",
-            "wigtownshire"
-        ]
-    },
-    {
-        "country_names": [
             "senegal"
         ],
         "adjectivals": [
@@ -4218,7 +4255,9 @@
                 20.46513
             ]
         },
-        "areas": []
+        "areas": [
+			"kosovo"
+		]
     },
     {
         "country_names": [
@@ -4267,7 +4306,7 @@
             "singaporean"
         ],
         "languages": [
-            "Singlish"
+            "singlish"
         ],
         "latlong": [
             1.3,
@@ -4277,7 +4316,8 @@
             "singaporeans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "SG"
     },
     {
         "country_names": [
@@ -4424,23 +4464,6 @@
     },
     {
         "country_names": [
-            "ossetia",
-            "south ossetia"
-        ],
-        "adjectivals": [
-            "south ossetian"
-        ],
-        "languages": [],
-        "demonyms": [
-            "south ossetians"
-        ],
-        "cities": [
-            "tskhinvali"
-        ],
-        "areas": []
-    },
-    {
-        "country_names": [
             "south sudan"
         ],
         "adjectivals": [
@@ -4453,7 +4476,8 @@
         "cities": [
             "juba"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "SD"
     },
     {
         "prefixes": [
@@ -4576,7 +4600,8 @@
     },
     {
         "country_names": [
-            "surinam"
+            "surinam",
+			"suriname"
         ],
         "adjectivals": [
             "surinamese"
@@ -4588,7 +4613,8 @@
         "cities": [
             "paramaribo"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "SR"
     },
     {
         "country_names": [
@@ -4742,7 +4768,8 @@
             "homs",
             "latakia"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "SY"
     },
     {
         "country_names": [
@@ -4947,7 +4974,8 @@
         "cities": [
             "nukualofa"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "TO"
     },
     {
         "country_names": [
@@ -5122,7 +5150,12 @@
             "cockburn town",
             "providenciales"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "TC",
+		"latlong": [
+			21.7500,
+			-71.5833
+		]
     },
     {
         "country_names": [
@@ -5142,7 +5175,8 @@
         "cities": [
             "funafuti"
         ],
-        "areas": []
+        "areas": [],
+		"country_code": "TV"
     },
     {
         "country_names": [
@@ -5278,14 +5312,17 @@
     },
     {
         "country_names": [
-            "united kingdom",
-            "england"
+            "united kingdom"
         ],
         "nicknames": [
             "blighty"
         ],
         "adjectivals": [
-            "british"
+            "british",
+			"scots",
+			"scottish",
+			"welsh",
+			"northern irish"
         ],
         "languages": [],
         "country_code": "GB",
@@ -5394,9 +5431,71 @@
             "st albans": [
                 51.75,
                 -0.33333
-            ]
+            ],
+			"belfast": [
+				54.58333,
+				-5.93333
+			],
+            "aberdeen": [
+				57.14369,
+				-2.09814
+			],
+            "dundee": [
+				56.46913,
+				-2.97489
+			],
+            "edinburgh": [
+				55.95206,
+				-3.19648
+			],
+            "glasgow": [
+				55.86515,
+				-4.25763
+			]
         },
         "areas": [
+			"wales",
+			"scotland",
+            "aberdeenshire",
+            "argyll",
+            "ayrshire",
+            "banffshire",
+            "berwickshire",
+            "bute",
+            "caithness",
+            "clackmannanshire",
+            "cromartyshire",
+            "dumfriesshire",
+            "dunbartonshire",
+            "dumbarton",
+            "lothian",
+            "fife",
+            "inverness-shire",
+            "kincardineshire",
+            "kinross-shire",
+            "kirkcudbrightshire",
+            "lanarkshire",
+            "midlothian",
+            "moray",
+            "nairnshire",
+            "orkney",
+            "peeblesshire",
+            "perthshire",
+            "renfrewshire",
+            "ross and cromarty",
+            "ross-shire",
+            "roxburghshire",
+            "selkirkshire",
+            "shetland",
+            "stirlingshire",
+            "sutherland",
+            "linlithgowshire",
+            "wigtownshire",
+			"northern ireland",
+            "antrim",
+            "armagh",
+            "fermanagh",
+            "londonderry",
             "avon",
             "bedfordshire",
             "berkshire",
@@ -5774,21 +5873,6 @@
     },
     {
         "country_names": [
-            "vatican city",
-            "vatican"
-        ],
-        "adjectivals": [],
-        "languages": [],
-        "latlong": [
-            41.9,
-            12.45
-        ],
-        "demonyms": [],
-        "cities": [],
-        "areas": []
-    },
-    {
-        "country_names": [
             "venezuela"
         ],
         "adjectivals": [
@@ -5857,34 +5941,18 @@
     },
     {
         "country_names": [
-            "virgin islands"
+            "us virgin islands"
         ],
         "adjectivals": [
-            "virgin island"
+            "us virgin island"
         ],
         "languages": [],
         "demonyms": [
-            "virgin islanders"
+            "us virgin islanders"
         ],
         "cities": [],
-        "areas": []
-    },
-    {
-        "prefixes": [
-            "cymro"
-        ],
-        "country_names": [
-            "wales"
-        ],
-        "adjectivals": [
-            "welsh"
-        ],
-        "languages": [],
-        "demonyms": [
-            "welsh"
-        ],
-        "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "VI"
     },
     {
         "country_names": [
@@ -5900,7 +5968,12 @@
             "futunans"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "WF",
+		"latlong": [
+			-13.3000,
+			-176.2000
+		]
     },
     {
         "country_names": [
@@ -5917,7 +5990,8 @@
             "sahraouis"
         ],
         "cities": [],
-        "areas": []
+        "areas": [],
+		"country_code": "EH"
     },
     {
         "country_names": [

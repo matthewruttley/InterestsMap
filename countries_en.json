@@ -4049,7 +4049,9 @@
    },
    {
       "country_names":[
-         "st. kitts and nevis"
+         "st. kitts and nevis",
+		 "kitts and nevis",
+		 "st kitts"
       ],
       "adjectivals":[
          "kittitian",
@@ -4121,7 +4123,8 @@
    },
    {
       "country_names":[
-         "st. vincent and the grenadines"
+         "st. vincent and the grenadines",
+		 "grenadines"
       ],
       "adjectivals":[
          "st. vincentian",
@@ -4191,7 +4194,8 @@
    },
    {
       "country_names":[
-         "sao tome and principe"
+         "sao tome and principe",
+		 "sao tome"
       ],
       "adjectivals":[
          "sao tomean"
@@ -5076,7 +5080,8 @@
    },
    {
       "country_names":[
-         "turks and caicos islands"
+         "turks and caicos islands",
+		 "turks and caicos"
       ],
       "adjectivals":[
 

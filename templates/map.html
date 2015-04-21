@@ -26,37 +26,114 @@
       font-weight: bold;
       background-color: lightgreen;
     }
-    #world-map-history, #infotable {
+    #world-map-history, #components {
       float:left
     }
+    
+    #world-map-history {
+      margin-top: 10px;
+      margin-left: 10px;
+      height: 700px;
+      width: 1200px;
+    }
+    
+    #components {
+      float:left
+    }
+    
     #infotable {
       margin-left: 20px;
       margin-top: 20px;
+    }
+    
+    #infotable td {
       background-color: lightblue;
+      padding: 5px;
+    }
+    
+    #selection {
+      width: 170px;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding: 5px;
+      background-color: lightblue;
+      border: 1px solid black;
+    }
+    
+    #urls {
+      margin-top: 10px;
+      margin-left: 20px;
+      float: left;
+      width: 1200px;
+    }
+    
+    #urltable {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    
+    #urltable td {
+      border: 1px solid black;
+      padding: 2px;
+      word-break: break-all;
+      vertical-align: middle;
+    }
+    
+    #urltable th {
+      background-color: lightblue;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <figure>
     <div id='container'>
-      <div id="world-map-history" style="width: 1500px; height: 800px"></div>
-      <div id='infotable'>
-        <table>
-          <tr>
-            <th>Country</th><th>Hits</th>
-          </tr>
-          {% for country in data.countries %}
-            {% if loop.index < 25 %}<tr><td>{{country.3}}</td><td>{{country.1}}</td></tr>{% endif %}
-          {% endfor %}
-        </table>
+      <div id="world-map-history"></div>
+      <div id='components'>
+        <div id='selection'>
+          <button onclick="location.href='/'">Show all history data</button><br>
+          <button onclick="location.href='/?recent=true'">Only show the last 30 days</button>
+        </div>
+        <div id='infotable'>
+          <table>
+            <tr>
+              <th>Country</th><th>Hits</th>
+            </tr>
+            {% for country in data.countries %}
+              {% if loop.index < 25 %}<tr><td>{{country.3|title}}</td><td>{{country.1}}</td></tr>{% endif %}
+            {% endfor %}
+          </table>
+        </div>
       </div>
+      <div id='urls'></div>
     </div>
+    <script>
+      
+      //Could create a matrix style data structure
+      //[
+      //  ['2014-01-01', [123, 345, 678]], //i.e. [date, [city/country IDs]]
+      //  ['2014-01-02', [123, 345, 678]],
+      //  ['2014-01-03', [123, 345, 678]],
+      //  ['2014-01-04', [123, 345, 678]],
+      //  ['2014-01-05', [123, 345, 678]],
+      //  ['2014-01-06', [123, 345, 678]],
+      //]
+      
+    </script>
     <script>
       var countryInfo = {
         {% for country in data.countries %}
           "{{country.0}}": {{country.1}},
         {% endfor %}
-      };      
+      };
+      
+      var markers = [
+        {% for city in data.cities %}
+        {latLng: {{city.latlong}}, name: '{{city.name}} - {{city.hits}} hits'},
+        {% endfor %}
+      ]
+      
       $(function(){
         $('#world-map-history').vectorMap({
           map: 'world_mill_en',
@@ -67,11 +144,11 @@
               normalizeFunction: 'polynomial'
             }]
           },
-          markers: [
-            {% for city in data.cities %}
-            {latLng: {{city.latlong}}, name: '{{city.name}} - {{city.hits}} hits'},
-            {% endfor %}
-          ],
+          markers: markers,
+          onMarkerClick: function(events, index) {
+            city = markers[index].name.split(' - ')[0]
+            get_urls(city)
+          },
           markerStyle: {
             initial: {
               fill: '#F8E23B',
@@ -87,6 +164,66 @@
           }
         });
       });
+    </script>
+    <script>
+      
+      function get_urls(city)
+      {
+        var xmlhttp;
+        xmlhttp=new XMLHttpRequest();
+        xmlhttp.onreadystatechange=function(){
+          if (xmlhttp.readyState==4 && xmlhttp.status==200){
+            //construct a table
+            
+            table = document.createElement('table')
+            table.id = 'urltable'
+            resp = JSON.parse(xmlhttp.responseText)
+            header_tr = document.createElement('tr')
+            header_urltitle = document.createElement('th')
+            header_count = document.createElement('th')
+            urltitle = document.createTextNode('Title & URL')
+            count = document.createTextNode('Count')
+            header_count.appendChild(count) //urgh so many things
+            header_urltitle.appendChild(urltitle)
+            header_tr.appendChild(header_urltitle)
+            header_tr.appendChild(header_count)
+            table.appendChild(header_tr)
+            
+            for (var url in resp) {
+              tr = document.createElement('tr')
+              td_text = document.createElement('td')
+              td_int = document.createElement('td')
+              td_int.style.minWidth = "50px"
+              title = document.createTextNode(resp[url][2])
+              url_text = document.createTextNode(resp[url][0])
+              br = document.createElement('br')
+              count = document.createTextNode(resp[url][1])
+              td_text.appendChild(title)
+              td_text.appendChild(br)
+              td_text.appendChild(url_text)
+              td_int.appendChild(count)
+              tr.appendChild(td_text)
+              tr.appendChild(td_int)
+              table.appendChild(tr)
+            }
+            
+            document.getElementById('urls').innerHTML = ""
+            document.getElementById('urls').appendChild(table)
+          }
+        }
+        //construct url
+        //if (city) {
+          url = "/relevant_urls?city=" + city
+        //}else{
+        //  url = "/relevant_urls?country=" + country
+        //}
+        console.log('getting data from: ' + url)
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+      }
+      
+      
+      
     </script>
   </figure>
 </body>
